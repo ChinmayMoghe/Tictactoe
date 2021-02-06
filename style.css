@@ -203,6 +203,15 @@ img {
     border: 1px solid white;
 }
 
+/*Hover effects*/
+
+.modal-x:hover,
+.modal-o:hover,
+.game-layout>div:empty {
+    cursor: pointer;
+}
+
+
 .winnerPopup {
     display: none;
     background-color: rgba(10, 10, 10, 0.452);
