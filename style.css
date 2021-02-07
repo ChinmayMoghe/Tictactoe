@@ -157,7 +157,7 @@ img {
 }
 
 .psychedlic-effect {
-    background-image: repeating-linear-gradient(45deg, pink, yellow, red, blue);
+    background-image: repeating-linear-gradient(45deg, pink 10px, yellow 20px, red 30px, blue 40px);
     background-color: black;
     -webkit-background-clip: text;
 }
@@ -172,7 +172,7 @@ img {
     }
 
     to {
-        background-position: 100px 100px;
+        background-position: 100rem 100rem;
     }
 }
 
@@ -216,7 +216,7 @@ img {
     display: none;
     background-color: rgba(10, 10, 10, 0.452);
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
     top: 0;
@@ -230,15 +230,17 @@ img {
     color: #fff;
     text-align: center;
     padding-bottom: 0.5em;
+    margin-top : 4rem;
 }
 
 .restart-button {
-    font-size: 1em;
-    width: 170px;
+    font-size: calc(1em + 1vw);
+    width: 17rem;
     color: white;
     padding: 5px;
     background-color: #3bd037;
     border-radius: 10px;
+    margin-bottom: 4rem;
 }
 
 @media only screen and (orientation:landscape) {
