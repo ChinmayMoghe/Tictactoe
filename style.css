@@ -249,5 +249,9 @@ img {
         height: 25vw;
         margin: 0 auto;
     }
-
+	.modal-x:hover,
+	.modal-o:hover,
+	.game-layout>div:empty {
+    		cursor: pointer;
+	}
 }
